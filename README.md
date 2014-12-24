@@ -1,30 +1,35 @@
-<h>spring-social-tencent-weibo</h>
-<p>This project is an Spring Social extension for tencent-weibo. Currently, only basic operations are supported:</p>
-<p></p>
-<p>User: get profile by id or username</p>
-<p>Tweet: add, add_pic, reply and comment</p>
-<p>Friend: get friend list</p>
-<p></p>
-<p>If you are using this project, you should probably consider to read the term of use of Weibo</p>
-<p></p>
-<h>Getting started</h>
-<p>In order to get started with spring-social-tencent-weibo, you have to follow only 3 simple steps.</p>
-<p></p>
-<p>Step 1: Get the code from GitHub</p>
-<p></p>
-<p>git clone --recursive git://github.com/avidoggy/spring-social-tencent-weibo.git</p>
-<p></p>
-<p>Step 2: Use Maven to build project</p>
-<p></p>
-<p>cd spring-social-tencent-weibo mvn clean install</p>
-<p></p>
-<p>Step 3: Add spring-social-tencent-weibo as a Maven dependency</p>
-<p></p>
+spring-social-tencent-weibo 
+====================================
+
+## Description
+This project is an Spring Social extension for tencent-weibo. Currently, only basic operations are supported:
+
+User: get profile by id or username 
+Tweet: add, add_pic, reply and comment 
+Friend: get friend list
+
+If you are using this project, you should probably consider to read the term of use of Weibo
+
+## Installation
+Getting started In order to get started with spring-social-tencent-weibo, you have to follow only 3 simple steps.
+
+Step 1: Get the code from GitHub
+
+git clone --recursive git://github.com/avidoggy/spring-social-tencent-weibo.git
+
+Step 2: Use Maven to build project
+
+cd spring-social-tencent-weibo mvn clean install
+
+Step 3: Add spring-social-tencent-weibo as a Maven dependency
+### Maven
+```xml
 <dependency>
     <groupId>studio.bitcat</groupId>
     <artifactId>spring-social-tencent-weibo</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT </version>
 </dependency>
-<p></p>
-<h>License</h>
-<p>This project is available under the Apache License, Version 2.0.</p>
+```
+
+## License 
+This project is available under the Apache License, Version 2.0.
