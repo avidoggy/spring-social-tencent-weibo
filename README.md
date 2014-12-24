@@ -4,9 +4,9 @@ spring-social-tencent-weibo
 ## Description
 This project is an Spring Social extension for tencent-weibo. Currently, only basic operations are supported:
 
--[User: get profile by id or username]
--[Tweet: add, add_pic, reply and comment]
--[Friend: get friend list]
+ - [User: get profile by id or username]
+ - [Tweet: add, add_pic, reply and comment]
+ - [Friend: get friend list]
 
 If you are using this project, you should probably consider to read the term of use of Weibo
 
