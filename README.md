@@ -20,11 +20,11 @@
 <p></p>
 <p>Step 3: Add spring-social-tencent-weibo as a Maven dependency</p>
 <p></p>
-<p><dependency></p>
-    <p><groupId>studio.bitcat</groupId></p>
-    <p><artifactId>spring-social-tencent-weibo</artifactId></p>
-    <p><version>1.0.1-SNAPSHOT</version></p>
-<p></dependency></p>
+<dependency>
+    <groupId>studio.bitcat</groupId>
+    <artifactId>spring-social-tencent-weibo</artifactId>
+    <version>1.0.1-SNAPSHOT</version>
+</dependency>
 <p></p>
 <h>License</h>
 <p>This project is available under the Apache License, Version 2.0.</p>
